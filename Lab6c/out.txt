@@ -1,0 +1,53 @@
+{ noitcAmliF ssalc
+;01 = GNITAR_ESAB tni citats lanif etavirp    
+{ )kraMralupop taolf ,kraMcitirc taolf(etar elbuod cilbup    
+;3 / )GNITAR_ESAB + kraMralupop + kraMcitirc( nruter        
+}    
+}
+{ mliF ssalc
+{ ofnInommoC ssalc cilbup   
+;htgnel tni cilbup        
+;erneg gnirtS cilbup        
+;srotcerid][ tni cilbup        
+;)""(nltnirp.tuo.metsyS { )(wohs diov       
+;)""(nltnirp.tuo.metsyS;)" "+erneg+" "+htgnel(tnirp.tuo.metsyS           
+{ )++i ;htgnel.srotcerid < i ;0 = i tni( rof           
+;)""(nltnirp.tuo.metsyS;)" "+]i[srotcerid(tnirp.tuo.metsyS               
+}           
+}       
+}   
+{ )srotcerid][ gnirtS,erneg gnirtS ,htgnel tni(ofnInommoC diov cilbup*/        
+;erneg = erneg.siht ;htgnel=htgnel.siht        
+{ )++i ;htgnel.srotcerid < i ;0 = i tni( rof            
+;]i[srotcerid = ]i[srotcerid.siht                
+}            
+/*}        
+
+
+;)(ofnInommoC wen = mrofni ofnInommoC    
+{ )(noitcAmliF wen = noitcAetar noitcAmliF    
+;5 = esab taolf        
+edirrevO@        
+{ )kraMralupop taolf ,kraMcitirc taolf(etar elbuod cilbup        
+;eulav taolf            
+{ )esab =< kraMralupop || esab =< kraMcitirc( fi            
+;esab = eulav                
+{ esle }            
+;2 / )kraMralupop + kraMcitirc( = eulav                
+}            
+;eulav nruter            
+}        
+;}    
+}
+{ niaM ssalc cilbup
+{ )sgra ][gnirtS(niam diov citats cilbup    
+;}6262463 ,321321 ,3213321{ = riD ][tni        
+;)(mliF wen = D mliF        
+;06 = htgnel.mrofni.D        
+;"ydemoc" = erneg.mrofni.D        
+;riD = srotcerid.mrofni.D        
+;)(wohs.mrofni.D        
+;))04,02(etar.noitcAetar.D+" = etar"(nltnirp.tuo.metsyS        
+}    
+}
+
