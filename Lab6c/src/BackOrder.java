@@ -21,7 +21,6 @@ public class BackOrder {
     private String backOrderString = "";
 
     public static void main(String[] args) {
-
         BackOrder a = new BackOrder();
         File in = new File("./in.txt");
         try {
@@ -72,17 +71,15 @@ public class BackOrder {
         int p = 0;
         while (p <= n) {
             str = inputStream.readLine();
-           // if (str =="//end of program") {break;}
             backOrderString(str);p++;
         }
         inputStream.close();
-
-        outputStream = new PrintWriter(new FileOutputStream("./out.txt", true));
-
-        PrintWriter writer = new PrintWriter("./out.txt"); //clearFile
+        File filePath = new File("Saving_Output_in_This_Folder");
+        filePath.mkdir();
+        outputStream = new PrintWriter(new FileOutputStream(filePath+"\\out.txt", true));
+        PrintWriter writer = new PrintWriter(filePath+"\\out.txt"); //clearFile
         writer.print("");
         writer.close();
-
         outputStream.println(backOrderString);
         outputStream.close();
     }
